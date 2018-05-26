@@ -1,0 +1,40 @@
+{
+    "name": "reflar/sweetalerts",
+    "description": "Replace the default alerts with Sweet Alerts",
+    "keywords": [
+        "flarum",
+        "sweetalerts",
+        "reflar",
+        "alerts"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta-7.1"
+    },
+    "authors": [
+        {
+            "name": "CDK2020",
+            "email": "CDK2020@reflar.email",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Reflar\\SweetAlerts\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "ReFlar Sweet Alerts",
+            "icon": {
+                "name": "exclamation",
+                "backgroundColor": "#263238",
+                "color": "#fff"
+            }
+        },
+        "flagrow": {
+            "discuss": ""
+        }
+    }
+}

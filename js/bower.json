@@ -1,0 +1,6 @@
+{
+    "name": "reflar-sweetalert",
+    "dependencies": {
+      "sweetalert2": "v7.20.9"
+    }
+  }
